@@ -10,3 +10,4 @@ const ResponseDisplay = ({ data }) => {
 };
 
 export default ResponseDisplay;
+
