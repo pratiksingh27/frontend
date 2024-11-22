@@ -11,7 +11,7 @@ const InputForm = () => {
     e.preventDefault();
     try {
       const data = JSON.parse(jsonInput);
-      const response = await axios.post("http://localhost:5000/bfhl", data);
+      const response = await axios.post("https://backend-beta-two-55.vercel.app/?vercelToolbarCode=QJlqPFI-kmX-i7n/bfhl", data);
       setResponseData(response.data);
       setError("");
     } catch (err) {
